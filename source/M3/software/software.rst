@@ -1,0 +1,62 @@
+.. _m3software:
+
+Software on M3
+**************
+
+M3 uses a modular system to manage software.
+
+Modules
+=======
+``Modules`` is software installed on M3 that provides an easy mechanism for updating your environment variables, so that your environment uses the correct
+version of software and libraries installed on M3.
+
+Installed software modules
+==========================
+
+Jump to software beginning with `A <A_>`_ `B <B_>`_ `C <C_>`_ `D <D_>`_
+`E <E_>`_ `F <F_>`_ `G <G_>`_ `H <H_>`_ `I <I_>`_ `J <J_>`_ `K <K_>`_ `L <L_>`_
+`M <M_>`_ `N <N_>`_ `O <O_>`_ `P <P_>`_ `Q <Q_>`_ `R <R_>`_ `S <S_>`_ `T <T_>`_
+`U <U_>`_ `V <V_>`_ `W <W_>`_ `X <X_>`_ `Y <Y_>`_ `Z <Z_>`_.
+
+.. attention::
+
+    Some software packages on M3 have license conditions that restrict
+    access to the software to certain user groups. These software packages are
+    marked with the ``restricted`` keyword. To apply for access to restricted
+    software,
+    `log in to the HPC ID system <https://hpc.erc.monash.edu.au/karaage/>`_ and
+    navigate to the ``Software`` section of your profile. To enquire about
+    restricted software contact the `MASSIVE Help Desk <help@massive.org.au>`_
+
+.. note::
+
+    The `Monash Bioinformatics Platform (MBP) <https://www.monash.edu/researchinfrastructure/bioinformatics>`_
+    maintains a software stack on M3. More information, including how to access
+    this software stack, can be found on the :ref:`bioinformaticsindex` community
+    page.
+
+.. include:: m3softwaretable.txt
+
+Requesting an install
+=====================
+If you require additional software please email help@massive.org.au with the following details:
+
+    - software
+    - version
+    - URL for download
+    - urgency
+    - if there are any licensing restrictions we need to impose
+
+Docker based work flows
+=======================
+Many fields are beginning to distribute fully self contained pieces of software
+in a container format known as docker. Unfortunately docker is unsuited as a
+container format for shared user systems, however it is relatively easy to
+convert most docker containers for scientific work flows to the Singularity
+format. If you wish to run software based on a Docker container, please email
+help@massive.org.au and let us know where we can obtain the container and we
+will be happy to convert it for you.
+
+.. include:: qiime.rst
+
+.. include:: python.rst

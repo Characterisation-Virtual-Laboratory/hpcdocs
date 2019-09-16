@@ -1,0 +1,339 @@
+
+***************************
+File Systems on CVL\@MASSIVE
+***************************
+
+The CVL\@MASSIVE File System is arranged in 3 parts:
+
+    - your home directory
+    - your project directory
+    - project scratch space
+
+In your home directory you should find a number of symbolic links (``ls -al``). These
+point to the project space and scratch you have been allocated. You can request
+additional space via help@massive.org.au
+
+For example if your project name is "YourProject001" you will see the following two links:
+
+.. code-block:: bash
+    
+    ls -al ~/
+    YourProject001 -> /projects/YourProject001
+    YourProject001_scratch -> /scratch/YourProject001
+
+The first link points to your ``project`` data that is backed up weekly (as with
+your ``home`` directory). The second one points to the faster system ``scratch``
+space, which is not backed up and is used for temporary data.
+
+What to put on each file system?
+--------------------------------
+That is up to you, but as a general guide:
+
+Home directory (~2GB)
+=====================
+
+This should contain all of your hidden files and configuration files. Things
+like personal settings for editors and other programs can go here.
+
+Project directory (Shared with everyone on your project)
+========================================================
+
+This area is backed up but limited in space. It should contain all of your
+input data, a copy of all your job scripts and final output data. It might
+be worth while to keep copies of any spreadsheets you might use to analyse
+results or any ``matlab`` or ``mathematica`` scripts/programs here as well.
+Basically anything that would be hard to regenerate.
+
+Generally each user in the project should create a subdirectory in the
+project folder for themselves.
+
+Scratch directory (Shared with everyone on your project)
+========================================================
+
+This area is not backed up. Generally all your intermediate data will go
+here. Anything that you can recreate by submitting a job script and waiting
+(even the job runs for quite a long time) can go here. Anything that you can't
+regenerate automatically, things that you have to think about and create
+rather than asking the computer to calculate should go in the project directory
+because that is backed up.
+
+
+Disk Quotas
+-----------
+CVL\@MASSIVE uses ``soft`` and ``hard`` quota limits.
+
+A ``soft`` limit allows you to have more than your allocated space for a short
+period of "grace" time (in days). After the grace time has been exceeded, the
+filesystem will prevent further files being added until the excess is removed.
+
+A ``hard`` limit prevents further files being added. 
+
+The quotas on the Project directories are much larger than the space users get
+in their own Home directories, so it is much better to use the Project space.
+Also the project space is available for all members of your project, so you
+can use it to share data with your colleagues.
+
+Default Quotas for New Projects
+-------------------------------
+
+By default, quotas for ``/projects`` directory will be applied as below:
+
+    - Default projects for Cryo-Electron Microscopy: 5TB
+    - Default project for MX: 5TB
+    - Other projects: 500GB
+
+Default quota for ``/scratch`` directory is 3TB.
+
+Please use the ``user_info`` command to view your usage and quota on all your projects and ``/scratch``.
+
+If you need higher allocation for project storage spaces, please send your request via quota request form_ or contact help@massive.org.au.
+
+.. _form: https://tinyurl.com/massive-m3-quota-request 
+
+Scratch Usage Policies
+----------------------
+
+Demand for scratch space is high so the following policies are now in force to
+ensure fair access to this high performance resource.
+
+Scratch space is only to be used for data that is actively being processed.
+
+We can also help make archival storage (such as RDS) available on M3
+for integrating into your workflows directly.
+
+System Backups and File Recovery
+--------------------------------
+
+The data storage on M3 is based on Lustre which distributes data across a
+number of disks and provides a mechanism to manage disk failures. It means
+that the M3 file system is fault tolerant and provides a high level of
+data protection.
+
+In addition to this, the home directories are backed up to tape every night. This means 
+that if you create a file on Tuesday, on the following day there
+will be a copy of the file stored in the backup system.  Backups are kept for 30 days, before
+the system permanently removes the file to make space for new data.
+
+
++------------------------+----------------+----------+--------------+-------------------------------+
+|  File System           | Type           | Quota    | Policy       | How long are backups kept?    |
++========================+================+==========+==============+===============================+
+| Home Directory         | NFS            | Yes      | Daily Backup | 30 days                       |
++------------------------+----------------+----------+--------------+-------------------------------+
+| Project Directory      | Lustre         | Yes      | Daily Backup | 30 days                       |
++------------------------+----------------+----------+--------------+-------------------------------+
+| Scratch Directory      | Lustre         | Yes      | No           |                               |
++------------------------+----------------+----------+--------------+-------------------------------+
+
+
+File Recovery Procedure
+=======================
+
+If you delete a file/directory by mistake, you will be able to recover the file by following the following the following procedure:
+
+- Email a request to help@massive.org.au.
+- Please include the the full path to the missing data, as well as information on when it was last seen and when it was deleted
+- We will be able to restore files modified within the 30 day window. Beyond that time, any changes in the file will be lost.
+
+The project scratch space is not backed up.
+
+
+Information for Desktop Users
+-----------------------------
+
+Desktop users should be aware that many application and Desktop defaults dump data to your home directory. Care must be taken when dealing with large files as these can create large amounts of hidden data and that can cause your home directory to go over quota. 
+
+The following is some information for solving common issues:
+
+Thumbnails Generating Too Much Data
+===================================
+
+The act of viewing large amounts of images in a file browser cause the
+generation of many Gigabytes of thumbnail images. To fix:
+
+    - Go to Applications - System Tools - File Browser
+    - At your File Browser, Go to Edit - Preference
+    - At preference, Go to Preview
+    - At Other Previewable files - Show thumbnails - Change to 'Never'
+    - Ok .
+
+Remember to empty your trash folder
+===================================
+
+Some users may still encounter disk quota full messages when they have
+already removed many files from their Home directories.
+
+Files in the trash folder count towards a user's home directory quota.
+
+Ensure that you clear your trash folder when you exit your MASSIVE Desktop Session.
+
+Already over quota?
+===================
+
+If you are over quota, and cannot login via the desktop, you can login using a
+login shell and use the commands described above in "Tools for Helping Manage Files".
+
+If you need higher allocation for project storage spaces, please send your request via quota request form_ or contact help@massive.org.au.
+
+.. _form: https://tinyurl.com/massive-m3-quota-request
+
+Storage outside of CVL\@MASSIVE
+------------------------------
+
+With your CVL\@MASSIVE project, you have an allocation of storage on its high performance
+Lustre file system. This storage space is intended for data analyses and has a
+limited capacity. For large-scale, secure, and long-term research data storage,
+Monash University has the following offerings available through VicNode: 
+ 
+     - ``Vault`` -- primarily used as archive, is a tape-based system specifically
+       for long-term storage; this is best used to free up space on your M3 project, 
+       allowing for more data to be staged into your project for analyses.
+       For further information, please visit: https://vicnode.org.au/products-4/vault-tape-mon/
+
+     - ``Market`` -- is backed-up storage intended for active data sets and is
+       accessible through the Windows, Linux, or Mac desktop environments at
+       your research laboratory for convenient sharing of data files. For further
+       information, please visit: https://vicnode.org.au/products-4/market-mon
+ 
+All additional storage requests can be lodged with the Research Storage team via
+the Data Dashboard_ or contacting researchdata@monash.edu
+
+.. _Dashboard: https://datadashboard.erc.monash.edu
+
+Instructions to access Market share
+===================================
+
+.. attention::
+    Update: 16th August 2018
+
+    Issues with connecting with the method below have been resolved.
+    Please note that unmounting is using a different flag.
+
+The ``Market`` allocation is presented as a SMB share with a given name,
+usually of the form: ``RDS-R-<Faculty>-<Name>``. This share can be
+mounted within an M3 Desktop session as follows:
+
+1. Open a Terminal window within your M3 Desktop_ session and issue this
+command:
+
+.. _Desktop: https://desktop.massive.org.au
+
+.. code-block:: bash
+
+   gvfs-mount smb://storage.erc.monash.edu.au/shares/<sharename>
+
+For share on Vault2
+
+.. code-block:: bash
+
+  gvfs-mount smb://vault-v2.erc.monash.edu.au/<sharename>
+
+
+- Replace the ``<sharename>`` with the one provided by your allocation;
+- Enter your Monash ID (previously known as Authcate) username, when prompted;
+- enter ``MONASH`` when prompted to enter the "Domain"; and 
+- finally your Monash ID password on the "Password" prompt.
+
+.. note:: ``gvfs-mount`` is not available on M3 login nodes, use desktop
+          (Strudel) to access the share. 
+
+2. If successful, the mounted share will be visible through the file browser.
+If the user is not a member of the group, an “access denied” message will be
+displayed.
+
+3. It is best to cleanly ``unmount`` the share when it is no longer needed,
+by using this command:
+
+.. code-block:: bash
+
+   gvfs-mount -u smb://storage.erc.monash.edu.au/shares/<sharename>
+
+
+.. code-block:: bash
+
+  gvfs-mount -u smb://vault-v2.erc.monash.edu.au/<sharename>
+
+However, the share will be automatically unmounted once the desktop session
+terminates.
+
+The collection owner will/should be able to add and/or remove collaborators who
+can mount the share; through the eSolution’s Group Management page:
+https://groupadmin.monash.edu/ On this page, a list of shares that you have
+admin privileges will appear, each of this shares will appear as:
+``RDS-R-<Faculty>-<Name>-Shared``.
+
+**Important Note:** It is a known issue that the available storage for the share is
+*incorrectly* reported. Users are advised to simply ignore the warning, and allow
+a copy/move to proceed. We are unable to add non-Monash users to mount a share,
+since this authenticates against the Monash AD.
+
+Instructions to access Vault
+============================
+
+The Vault-V2 has allowed MeRC to extend the protocols available to Vault users. Vault comprises a disk cache frontend and a tape library backend. This is not suited to millions of little files, but is highly effective with tar, zip and squashFS archives.
+
+SFTP and RSYNC access is available on a request basis. SSH keys can be used.
+
+Users with SSH access to Linux hosts such as M3 DTN can use the command line interactively to launch SFTP or RSYNC applications and use scripts to archive, locate and recall large quantities of data. These methods have slightly different syntax depending on the OS version of Linux.
+
+There are issues around the use of the backslash character as part of the MONASH domain declaration. The backslash is also used as a text escape character. There are examples
+below that use one, two and even three backslash characters in a row to get the desired folder/file path interpreted properly.
+
+**SFTP Access**
+
+(requires two backslashes MONASH\\<MonashID> and you will be prompted for your Monash Password)
+
+.. code-block:: bash
+
+  sftp MONASH\\<MonashID>@vault-v2.erc.monash.edu
+
+
+**SFTP to upload data to Vault from M3 login or dtn node**
+
+(requires two backslashes MONASH\\<MonashID>)
+
+If you already in the working directory, you can simply upload the file
+
+
+.. code-block:: bash
+  
+  sftp> put <local-files>
+
+Or you can specify the destination:
+
+
+.. code-block:: bash
+
+  sftp> put <local-files>  /home/MONASH\\<MonashID>/<share>/vault/<path>/
+
+
+**SFTP to retrieve the data from Vault on M3 login or dtn node**
+
+(requires three backslashes MONASH\\\<MonashID>)
+
+.. code-block:: bash
+
+  sftp> get /home/MONASH\\\<MonashID>/<sharename>/vault/<path>/
+
+
+**RSync**
+
+You can also use RSync to archive a copy of your data to Vault 
+
+(requires two backslashes MONASH\\<MonashID>)
+
+.. code-block:: bash
+
+  rsync -aHWv --stats --progress /<local-folder-path>/ MONASH\\<MonashID>@vault-v2.erc.monash.edu:<sharename>/vault/<path>
+
+
+To retrieve your files back from Vault with Rsync:
+
+(requires two backslashes MONASH\\<MonashID>)
+
+.. code-block:: bash
+
+  rsync -aHWv --stats --progress MONASH\\<MonashID>@vault-v2.erc.monash.edu:<sharename>/vault/<path> /<local-folder-path>/
+
+
+

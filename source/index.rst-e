@@ -1,0 +1,87 @@
+.. HPC Documentation master file
+
+|
+
+.. image:: _static/massive-website-banner.png
+    :width: 500px
+    :alt: The MASSIVE logo
+    :align: center
+    :target: http://massive.org.au
+
+.. _contact us: help@massive.org.au
+
+**************************************
+Welcome to the CVL\@MASSIVE user guide!
+**************************************
+
+.. important:: **Scheduled Outages**
+
+    We have scheduled quarterly outages for M3. The purpose of this is to ensure
+    that we have communicated outages to our HPC users in advance, and at the
+    same time to ensure that the system is up-to-date as well as apply fixes to
+    bugs and security vulnerabilities.
+
+   - Dates are:
+
+        * 20/03/19 (COMPLETED)
+        * 26/06/19 (COMPLETED)
+        * 18/09/19
+        * 11/12/19
+
+
+
+.. raw:: html
+   :file: rss_events_feed.html
+
+.. raw:: html
+   :file: rss_news_feed.html
+
+This site contains the documentation for the MASSIVE HPC systems. M3 is the newest addition to the facility.
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Help and Support
+
+    help-and-support
+    scheduled-maintenance
+    CVL/terms-of-use
+
+.. _m3-docs:
+
+.. toctree::
+    :maxdepth: 3
+    :caption: Using CVL@MASSIVE
+
+    CVL/m3users
+    CVL/requesting-an-account
+    CVL/requesting-help-on-cvl
+    CVL/connecting-to-cvl
+    CVL/file-systems-on-cvl
+    CVL/lustre
+    CVL/transferring-files
+    CVL/software/software
+    
+.. _communities:
+
+.. toctree::
+    :maxdepth: 3
+    :caption: Communities
+
+    MX2 Eiger <communities/mx>
+    Deep Learning <communities/deep-learning>
+    Neuroimaging <communities/neuroimaging>
+    Cryo EM <communities/cryo-em/cryo>
+    Bioinformatics <communities/bioinformatics>
+
+.. _faqs_generic:
+
+.. toctree::
+    :maxdepth: 3
+    :caption: FAQs
+
+    FAQ/faq
+    field-of-research-and-socioeconomic-objectives-codes
+    FAQ/misc
+    FAQ/cvl-cloudstor
+    FAQ/quotas.md

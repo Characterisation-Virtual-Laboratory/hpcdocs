@@ -1,0 +1,47 @@
+Blah de blah de blah
+====================
+# Common file system issues relating to quotas
+
+## My strudel session won't start. What's happening? 
+
+Log in to M3 via ssh and check your disk usage using the `user_info` command. 
+The output of this command looks like this: 
+
+```bash
+[kerriw@m3-login1 ~]$ user_info
+Home directory usage
++--------------+---------+---------+--------+
+| Path         |   Usage |   Quota |   Perc |
+|--------------+---------+---------+--------|
+| /home/kerriw |     8GB |    10GB |   85 % |
++--------------+---------+---------+--------+
+Project usage
++--------+------------+------------+--------+-----------+-----------+--------+
+| Name   |   Projects |   Projects |   Perc |   Scratch |   Scratch |   Perc |
+|        |      Usage |      Quota |        |     Usage |     Quota |        |
+|--------+------------+------------+--------+-----------+-----------+--------|
+| aj89   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| am35   |        0GB |      500GB |    0 % |       0GB |    3072GB |    0 % |
+| ap66   |      990GB |     2000GB |   50 % |    2297GB |    3000GB |   77 % |
+| bd17   |      425GB |     1000GB |   42 % |    8643GB |   20480GB |   42 % |
+| bm14   |      681GB |     1000GB |   68 % |    5114GB |    6000GB |   85 % |
+| df22   |      303GB |      500GB |   61 % |   21214GB |   30720GB |   69 % |
+| dm96   |        0GB |       50GB |    0 % |       1GB |     100GB |    1 % |
+| ds53   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| ds67   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| fs18   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| ha66   |      234GB |      500GB |   47 % |   73635GB |   97280GB |   76 % |
+| ha75   |        0GB |      500GB |    0 % |    2537GB |    3174GB |   80 % |
+| in79   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| kt58   |      581GB |      500GB |  116 % |     357GB |    3072GB |   12 % |
+| ni91   |      236GB |      500GB |   47 % |    1248GB |    3072GB |   41 % |
+| nq46   |       45GB |      500GB |    9 % |      44GB |    1024GB |    4 % |
+| ny79   |     7383GB |     4000GB |  185 % |   44497GB |   46080GB |   97 % |
+| ow58   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| pMOSP  |     2607GB |     4096GB |   64 % |   64816GB |   66560GB |   97 % |
+| rb55   |     1523GB |     5120GB |   30 % |     235GB |    3072GB |    8 % |
+| us85   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
+| vk76   |      352GB |     5000GB |    7 % |    1199GB |    5000GB |   24 % |
+| xg10   |        0GB |       50GB |    0 % |       0GB |     100GB |    0 % |
++--------+------------+------------+--------+-----------+-----------+--------+
+```

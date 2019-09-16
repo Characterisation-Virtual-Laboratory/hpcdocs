@@ -1,0 +1,14 @@
+connecting/connecting-via-strudel.rst
+connecting/connecting-via-ssh.rst
+connecting-to-cvl.rst
+file-systems-on-cvl.rst
+m3users.rst
+requesting-an-account.rst
+requesting-help-on-cvl.rst
+slurm/gpu-jobs.rst
+slurm/check-cluster-status.rst
+slurm/slurm-accounts.rst
+slurm/project-credit-management.rst
+slurm/slurm-overview.rst
+software/software.rst
+transferring-files.rst

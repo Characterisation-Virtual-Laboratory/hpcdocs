@@ -1,0 +1,633 @@
+=================================  ==============================================================================================================================================================================================================================================================================================================================================================
+Software                           Version(s)
+=================================  ==============================================================================================================================================================================================================================================================================================================================================================
+*3daprecon* ``restricted``         0.0.1, 1.0
+*3depict* ``restricted``           0.0.15
+3dslicer                           4.6.0, 4.8.1
+**A**                              .. _A:
+*abaqus* ``restricted``            6.14
+abinit                             8.8.3
+abricate                           0.8.13
+abyss                              2.0.2
+adapterremoval                     2.3.1
+adxv                               1.9.12
+afni                               16.2.16, 17.0.11
+align2rawsignal                    2.0
+*amber* ``restricted``             18-multi-gpus, 18-parallel, 18-serial, 18-single-gpu
+*amira* ``restricted``             6.3.0, 6.4.0, 6.5.0
+anaconda                           2018.12-Python3.7-gcc6, 2019.03-Python3.7-gcc5, 4.3.1-Python3.5, 4.3.1-Python3.5-gcc5, 5.0.1-Python2.7-gcc5, 5.0.1-Python3.5-gcc5, 5.0.1-Python3.6-gcc5, 5.1.0-Python3.6-gcc5
+*analyze* ``restricted``           12.0
+*ansys* ``restricted``             18.1, 19.1
+ants                               1.9.v4, 2.2.0, 2.3.1
+apex                               latest
+apr                                1.6.5
+apr-util                           1.6.1
+argos                              3.0.0-beta52
+ariba                              2.12.1
+armadillo                          9.200-rc1
+arpack                             2.1, 3.1.3-2
+ascp                               3.5.4
+atlas                              3.10.2-gcc4, 3.10.2-gcc5
+*atomprobedevcode* ``restricted``  1.0.0(default)
+attr                               2.4.46-12
+autodock_vina                      1.1.2
+*avizo* ``restricted``             9.0.1, 9.3.0, 9.3.0.1, 9.4.0, 9.5.0, 9.7
+axel                               2.12
+**B**                              .. _B:
+bamtools                           2.4.1
+barrnap                            0.9
+bart                               0.4.04, 0.4.04-cuda9.0
+bayenv                             2.0
+bayesass                           1.3, 3.04
+bayescan                           2.1
+bbcp                               17.12
+bcbtoolkit                         4.0.0
+bcftools                           1.6, 1.7, 1.8
+bcl2fastq                          2.19.1
+beagle                             2.1.2, 3.1.2
+beast1                             1.10.0, 1.8.4
+beast2                             2.4.7, 2.4.8, 2.5.0
+bedtools                           2.26.0, 2.26.0-gcc5, 2.27.1-gcc5
+bids-validator                     2019.01
+bidscoin                           2.2
+bigdatascript                      v0.99999e
+bigwigtowig                        377-0
+bilm-tf                            1.0
+biscuit                            0.2.2, 0.3.8.20180515
+bismark                            v0.19.1
+bison                              2.7.1
+blas                               3.8.0-gcc5, 3.8.0-gcc5-pic
+blast                              2.2.30, 2.3.0, 2.7.1(default)
+bolt-lmm                           2.3.2
+boost                              1.46.0-gcc5, 1.46.1-gcc5, 1.52.0-gcc5, 1.58.0, 1.58.0-gcc5, 1.62.0, 1.62.0-gcc4, 1.67.0-gcc5
+bowtie                             1.1.2
+bowtie2                            2.2.9, 2.3.5
+brain_age                          v1.0_18Jan2018
+breseq                             0.29.0, 0.33.2
+bsoft                              1.9.2, 2.0(default)
+buster                             20170508
+bwa                                0.7.12, 0.7.17-gcc5
+bzip2                              1.0.6
+**C**                              .. _C:
+caffe                              1.0.0, 1.0.0-protbuf32, caffe-matlab, caffe-tsn, deepvistool, latest(default), rc4
+caffe2                             0.8.1
+caffe_enet                         1.0
+caffe_unet                         1.0, 2.0
+canu                               1.7.1
+caret                              5.65
+*caw* ``restricted``               0.2.4(default)
+cblas                              20032302-gcc5
+ccp-em                             1.3.0
+ccp4                               7.0, 7.0.072, ccp4i, ccp4i2, ccp4mg, coot
+cdhit                              4.8.1
+cellprofiler                       2.2.0, 3.1.5
+cellprofileranalyst                2.2.0
+cellranger                         2.0.1, 3.0.2
+centrifuge                         1.0.4-beta
+chimera                            1.10.2, 1.11, 1.13
+chimerax                           0.6, 0.8
+chrome                             68, 69, 75, default
+circos                             0.69-6
+cistem                             1.0.0-beta
+clairvoyante                       1.02
+clamms                             1.1
+clonalframeml                      1.11
+cloudstor                          2.3.1-1.1, 2.4.1, 2.4.2
+cmake                              2.8.12.2, 2.8.12.2-gcc5, 3.10.2-gcc4, 3.10.2-gcc4-system, 3.10.2-gcc5, 3.15.1-gcc4-system, 3.15.1-gcc5, 3.5.2, 3.5.2-gcc4, 3.5.2-gcc5
+cmkl                               9.1.023
+cnvkit                             0.9.5
+*comsol* ``restricted``            5.2a, 5.4
+connectome                         1.2.3
+convert3d                          1.0.0
+coventormp                         1.002
+cp2k                               5.1.0, 6.1.0
+*cplex* ``restricted``             12.6, 12.6.3, 12.7.1, 12.8.0
+cpmd                               3.17.1, 4.3
+crisprcasfinder                    1.05
+crispresso                         1.0.13-gcc5
+crossmap                           0.3.5
+cryo-em-processing-tool            0.1
+cryolo                             1.0.0, 1.1.3, 1.3.1, 1.4.0
+cryosparc                          beta, cryosparc-cluster, v2
+*crystallography* ``restricted``   0.0.3(default)
+cst                                2017
+ctffind                            4.0.17, 4.1.10, 4.1.13, 4.1.3, 4.1.4, 4.1.8
+ctftilt                            latest
+cuda                               10.0, 4.1, 4.1.bajk, 6.0, 7.0, 7.5, 8.0, 8.0.61, 8.0-DL, 9.0, 9.1
+cudadeconv                         1.0
+cudalibs8to9                       0.1
+cudnn                              5.1, 5.1-DL, 7.1.2-cuda8, 7.1.3-cuda9, 7.3.0-cuda9
+cufflinks                          2.2.1
+cunit                              2.1.3
+cutadapt                           0.16
+cytoscape                          3.4.0
+**D**                              .. _D:
+daris-utils                        1.0
+darknet                            alexey, darknet_yolo_v3, latest
+dcm2niix                           latest
+dcmtk                              3.6.3
+deep-complex-networks              2017
+deepmedic                          0.6.1, 0.7.0
+deeptools                          3.1.2, 3.1.3
+deepvariant                        0.8-cpu, 0.8-gpu
+dense3dcrf                         20160527
+detectron                          20180322
+dftbplus                           18.2
+dials                              1.12.1, 1.5.1
+diamond                            0.9.22
+dicomnifti                         2.32.1
+diyabc                             2.1.0
+dmtcp                              2.5.2
+dominate                           2.3.5
+dos2unix                           7.4.0
+dragondisk                         1.0.5
+drishti                            2.6.3, 2.6.4
+drmaa                              1.0.7, 1.1.0
+dti-tk                             2.3.1
+dtk                                0.6.4.1
+dynamo                             1.1.178
+dynet                              2.1-cpu, 2.1-gpu
+**E**                              .. _E:
+ea-utils                           1.1.2, 1.1.2-gcc5
+eclipse                            4.7.3a, 4.8
+*effoff* ``restricted``            0.2.1(default)
+eigen                              2.0.17, 3.2.9, 3.3.0, 3.3.7
+eigensoft                          7.2.1
+eiger2cbf                          1.0
+elf                                1.0
+eman                               2.12, 2.2, 2.22, 2.3
+emap-galaxy-shortcut               1.0.0(default)
+emap-mytardis-shortcut             1.0.0(default)
+emap-wiki-shortcut                 0.0.1(default)
+emapaccess                         1.0(default)
+emboss                             6.6.0
+emspring                           spring_v0-84-1470, spring_v0-84-1470_mlx
+epacts                             3.3.2
+exciting                           nitrogen
+exploredti                         4.8.6
+**F**                              .. _F:
+fastani                            1.1
+fastml                             3.1, 3.11
+fastp                              0.20.0
+fastqc                             0.11.7
+fastQValidator                     0.1.1a
+fastspar                           0.0.7
+fasttree                           2.1.10
+fastx-toolkit                      0.0.13
+fcsalyzer                          0.9.12
+fdtd                               8.21.1933
+feedback                           1.0.1(default)
+ffmpeg                             3.4.2
+fftw                               3.3.4-gcc, 3.3.5-gcc, 3.3.5-gcc5
+fgbio                              0.9.0
+figtree                            1.4.3
+fiji                               20160808, 20170223, 20170530, current, MMI-MHTP
+fix                                1.064, 1.068
+flash                              1.2.11-gcc5
+flashpca                           2.0
+flexbar                            3.4.0
+flye                               2.3.5
+fmriprep                           1.0.15, 1.1.1, 1.2.5, 1.3.0_post2, 1.4.0
+foma                               0.9.18
+fooof                              0.1.3
+*fouriertransform* ``restricted``  0.2.3(default)
+freebayes                          0.9.9
+freesurfer                         20160922, 5.3, 6.0, 6.0-patch, devel-20171013, devel-20180612, devel-20190128
+*fsl* ``restricted``               5.0.11, 5.0.9, 6.0.0, 6.0.1
+fsleyes                            0.22.4, 0.23.0, 0.24.3
+ftgl                               2.1
+fxtract                            2.3
+**G**                              .. _G:
+gamess                             16srs1, 16srs1-v2, 2018r3
+gap                                4.8.10
+gatan                              free, uwa
+gatk                               3.4, 3.7, 4.0.1.1, 4.0.11.0, 4.1.2.0
+gatktool                           0.0.1
+*gauss* ``restricted``             11.0, 9.0
+*gaussian* ``restricted``          g16a03
+gautomatch                         0.53, 0.56
+gcat                               e48bf8b
+gcc                                4.9.3, 5.4.0, 6.1.0, 8.1.0
+gcta                               1.92.2beta
+gctf                               0.50, 0.66, 1.06, 1.06_cuda8, 1.08_cuda8, 1.18, 1.18_b2, 1.18_b2_cuda9, 1.18_cuda8, 1.18_cuda91
+gd-devel                           2.0.35
+gdal                               2.2.4, 2.3.1
+gdb                                8.2.1
+gdcm                               2.6.6-gcc4, 2.6.6-gcc5
+geant4                             10.02.p03, 10.03.p01
+gem                                3.3
+gemini                             0.30.1
+genotypeharmonizer                 1.4.20
+geos                               3.6
+gflags                             master, master-gcc4
+gimp                               2.8, 2.8.22
+gingerale                          2.3.6
+git                                2.17.0, 2.19.0, 2.8.1
+git-annex                          6.20180227
+glew                               2.0-gcc4, 2.0-gcc5
+glm                                0.9.9.5
+glog                               master, master-gcc4
+glpk                               4.60
+gmp                                6.1.2
+gmsh                               3.0.3
+gnuparallel                        20160822, 20190122
+gnuplot                            5.2.1
+go                                 1.11.1
+goctf                              1.1.0
+gpu_burn                           0.9, 1.0
+gpucomputingsdk                    4.0.17
+graphviz                           2.30.1
+gromacs                            2016.3-openmpi-cuda8.0, 2016.4-openmpi-cuda8.0, 2016.5-openmpi-cuda8.0-plumed, 2018.4-openmpi-cuda8.0, 2018-openmpi-cuda8.0, 2018-openmpi-cuda8.0-NVML(default), 2019.3-openmpi-cuda9.1, 5.1.4
+gsl                                1.15.13-system, 2.2-gcc4(default), 2.2-gcc5, 2.2-system, 2.5-gcc4
+gst-devel                          1.4.5
+gst-libav                          1.10.4, 1.4.5
+gubbins                            2.3.2
+guppy                              3.1.5-1, container
+*gurobi* ``restricted``            7.5.1, 8.0.0
+gvcftools                          0.17.0
+**H**                              .. _H:
+h5toxds                            1.1.0
+hdf5                               1.10.0-patch1
+hdfview                            3.0
+hisat2                             2.1.0
+hmmer                              2.4i, 3.2.1
+horovod                            0.16.4
+hotspot                            4.0.0
+htop                               2.0.1
+htseq                              0.10.0
+htslib                             1.7, 1.9, 1.9-gcc5
+huygens                            16.10.1-p1
+hyperspy                           1.4
+hypre                              2.11.2, 2.15.0
+**I**                              .. _I:
+*icm* ``restricted``               3.7-3b, 3.8.7
+idl                                8.6
+idr                                2.0.3
+igv                                2.3.81, 2.4.19
+ihrsr++                            v1.5
+ilastik                            1.2.0
+illumina-utils                     2.6, 2.6-python3.7
+imagej                             20160205
+imagemagick                        7.0.5-7, 7.0.8-23, 7.0.8.23-native
+imagescope                         11.2.0.780
+imblproc                           20190405
+imod                               4.8.54, 4.9.12, 4.9.9
+imod-raza                          4.7.12
+imosflm                            7.2.1, 7.2.2
+impute2                            2.3.1
+intel                              2015.0.090, 2016, 2017u4, 2018test, 2018u3
+iqtree                             1.5.3, 1.6.10, 1.6.2
+ismapper                           2.0
+itk                                4.10.0-gcc4, 4.10.0-gcc5, 4.10.0-gcc5-p1, 4.13.0-gcc4, 4.13.1-gcc4, 4.8.2-gcc4, 4.8.2-gcc5
+itksnap                            3.3.x(default), 3.8.0-beta
+**J**                              .. _J:
+jags                               3.3.0, 3.4.0, 4.3.0
+java                               1.7.0_67, 1.8.0_77(default)
+jdk                                10-20180320
+jellyfish                          1.1.12
+jspr                               2017-7-20
+juicer                             1.6.2
+**K**                              .. _K:
+kallisto                           0.43.0
+kaptive                            0.5.1
+kilosort                           1.0
+king                               2.1.6
+kleborate                          0.2.0, 0.3.0
+kraken                             1.1.1
+kraken2                            2.0.7-beta
+krakenuniq                         0.5.8
+kronatools                         2.7.1
+**L**                              .. _L:
+lammps                             20180510(default), 20181212
+lapack                             3.6.1-gcc4, 3.6.1-gcc4-opt, 3.6.1-gcc5, 3.8.0-gcc5, 3.8.0-gcc5-pic
+ldmap                              28apr15
+ldpred                             1.0.6
+leveldb                            master, master-gcc4
+*levelset* ``restricted``          0.0.2(default)
+libertem                           20190521
+libffi                             3.2.1
+libffi-devel                       3.0.13
+libfuse                            3.6.1
+libgd                              2.2.4
+libgeotiff                         1.4.2
+libharu                            2.2.1
+libint                             1.1.4
+libjpeg-turbo                      1.4.2, 1.5.1
+libsmm                             20150702
+libtiff                            3.9.7, 4.0.10
+libuuid                            2.23.2-43
+libxc                              4.1.0
+libxsmm                            1.9
+libzip                             0.10.1-8
+lighter                            1.1.2
+lkh                                2.0.9
+lmdb                               latest
+locuszoom                          1.4
+lofreq                             2.1.3.1
+lsd                                0.3beta
+**M**                              .. _M:
+macs2                              2.1.1.20160309
+mafft                              7.310
+magic-impute                       1.5.5
+magma                              1.6.1, 2.0.2
+mainmast                           1.0
+mango                              4.0.1
+manta                              1.5.0-gcc5
+mantid                             3.13.0, 3.8.0, 3.9.0
+mapdamage                          2.0.9
+mash                               2.1(default), 2.1.1
+materialsstudio                    18.1.0
+mathematica                        11.0.1, 12.0.0
+mathgl                             1.11.2, 2.0.3(default), 2.3.3
+matlab                             r2012b, r2014a, r2015b, r2016a, r2017a, r2017b, r2017b-caffe, r2018a, r2019a
+mauve                              20150213
+maven                              3.3.9
+maxquant                           1.6.5.0
+mc                                 4.8.21
+mcl                                11-294
+mcr2010b                           1.0
+megahit                            1.1.3, 1.2.4-beta
+meme                               5.0.1
+merantk                            1.2.1
+mercurial                          4.7.1
+mesa                               13.0.5, default
+meshlab                            2016.12-gcc5, 2019.03
+meson                              0.51.0
+metal                              2011
+metaplotr                          2018_09
+metawrap                           1.1.3
+mevislab                           2.8.1-gcc-64bit
+*miakat* ``restricted``            4.2.6
+minc-lib                           2.2-git-gcc4
+minc-tools                         2.2
+miniconda3                         4.1.11-python3.5
+minizinc                           2
+mixcr                              3.0.7
+mkl                                2018u3
+mlst                               2.15
+mne                                TF-201804
+molden                             5.7
+mono                               5.20.1.19
+moose                              1.0
+morphind                           1.4
+motioncor2                         20180924, 20181020, 20181020-cuda91, 2.1, 2.1.10-cuda8, 2.1.10-cuda9.1
+motioncorr                         2.1
+motioncorr2                        20160822
+mpfr                               3.1.5
+mpifileutils                       20170922
+mrbayes                            3.2.6, 3.2.6-mpi
+*mrf* ``restricted``               0.2.2(default)
+mriconvert                         2.1.0
+mricrogl                           1.0.20170207
+mricron                            06.2013, 30apr2016
+mriqc                              0.14.2, 0.9.7
+mrtrix                             0.3.15-gcc4, 0.3.15-gcc5, 0.3.16, 20170712, 3.0_rc3
+msm_hocr                           3.0
+mummer                             3.23-gcc5, 4.0.0.beta2-gcc5
+muscle                             3.8.31
+mustem                             5.3
+mxtools                            0.1
+mytardis                           0.1(default)
+**N**                              .. _N:
+namd                               2.12-ibverbs-smp-cuda, 2.12-multicore, 2.13-multicore-CUDA
+nanofilt                           201807
+nanopolish                         0.10.1, 0.11.1
+nccl                               2.4.7-cuda10.0, 2.4.7-cuda9.1, master, master-gcc4
+netcdf                             4.4.1.1(default), 4.4.1.1-openmpi-1.10.7-mlx, 4.7.0
+neuro_workflow                     2017v2
+new-fugue                          2010-06-02
+newick-utils                       1.6
+ngsqctoolkit                       2.3.3
+niftilib                           2.0.0
+niistat                            9.oct.2016
+ninja                              1.9.0
+nis-elements-viewer                4.20
+nlopt                              2.6.1
+*nn* ``restricted``                0.2.4(default)
+novactf                            03.2018
+nullarbor                          2.0.20181010
+**O**                              .. _O:
+*objexport* ``restricted``         0.0.4(default)
+octopus                            8.4, 8.4-parallel
+openbabel                          2.4.1
+openblas                           0.2.20
+opencv                             3.4.1, 3.4.1-gcc4, 4.1.0
+openfoam                           4.1, 5-paraview54, 5.x
+openjpeg                           2.3.0
+openmpi                            1.10.3-gcc4-mlx, 1.10.3-gcc4-mlx-cuda75, 1.10.3-gcc4-mlx-verbs, 1.10.3-gcc4-mlx-verbs-cuda75, 1.10.3-gcc5, 1.10.3-gcc5-mlx, 1.10.7-1.mlx, 1.10.7-intel, 1.10.7-mlx(default), 3.1.4-mlx
+opennmt-py                         0.7.0
+openrefine                         3.1
+orca                               4.0.1
+orfm                               v0.7.1
+**P**                              .. _P:
+packer                             1.3.5
+paleomix                           1.2.13.4-python2
+paml                               4.9
+pandoc                             2.7.3
+paraview                           4.0.1, 5.6.0
+pastml                             1.0
+pbzip2                             1.1.13
+peakseq                            1.3.1
+perl                               5.24.0, 5.28.0
+petsc                              3.10.1-gcc5
+pgi                                19.4, 2019
+phate                              0.4.4
+*phenix* ``restricted``            1.11.1, 1.15.1, 1.15.2
+phreeqc                            3.5.0
+phyml                              3.1
+picard                             2.19.0, 2.9.2
+pigz                               2.3.3, 2.3.4
+pilon                              1.22
+pindel                             0.6.3-gcc5
+plink                              1.7, 1.9, 1.90b6.10, 2.0-alpha
+plinkseq                           0.10
+plumed                             2.5.0
+pmix                               4.0.0, v2.2
+pointless                          1.10.28
+*posgen* ``restricted``            0.0.1(default)
+*posminus* ``restricted``          0.2.3(default)
+pplacer                            v1.1.alpha19
+prank                              170427
+prismatic                          1.1
+prismatic-cpu                      1.1
+prodigal                           2.6.3
+proj                               4.9.3, 5.1.0
+prokka                             1.13.3
+protobuf                           master, master-gcc4
+psi4                               v1.1
+pv                                 1.6.6
+py4dstem                           0.3
+pycharm                            2018.3.3
+pydeface                           1.1.0
+pyem                               v0.1, v0.1-201806, v0.3
+pymol                              1.8.2.1, 1.8.6, 2.4.0a0
+pyprismatic                        1.1.16
+pypy                               7.0.0-3.6
+pysam                              0.15.2-python2
+python                             2.7.11-gcc, 2.7.12-gcc4(default), 2.7.12-gcc5, 2.7.15-gcc5, 3.5.2-gcc, 3.5.2-gcc4, 3.5.2-gcc5, 3.6.2, 3.6.2-static, 3.6.6-gcc5, 3.7.2-gcc6, 3.7.3-system
+pytorch                            1.0-cuda10, 1.1-cuda10
+pyxnat                             20170308
+**Q**                              .. _Q:
+qatools                            1.2
+qctools                            v2.0-beta
+qhull                              2003.1, 2015.2
+qiaseq-dna                         1.0
+qiime1                             1.9.1
+qiime2                             2017.9, 2018.11, 2018.2, 2018.4, 2019.1, 2019.4
+qt                                 5.7.1-gcc5
+qt5-qtwebkit                       5.9.1
+quicktree                          2.0, 2.5
+quit                               1.1, 2.0.2
+R                                  3.3.1, 3.4.3, 3.5.0, 3.5.1, 3.5.2-openblas, 3.5.3-mkl, 3.6.0-mkl
+**R**                              .. _R:
+r-launcher                         0.0.1(default)
+racon                              1.3.1
+raxml                              8.2.12, 8.2.9
+razers3                            3.5.8
+*rdf-kd* ``restricted``            0.0.1(default)
+rdkit                              2019.03.3.0
+relion                             1.4, 2.02, 2.0.6, 2.0beta, 2.1(default), 2.1.b1, 2.1.b2, 2.1-openmpi-1.10.7-mlx, 3.0-20181109-cuda80, 3.0-20181109-cuda91, 3.0-20190115, 3.0.5, 3.0.5-uow, 3.0.6, 3.0.6-uow, 3.0.7, 3.0.7-uow, 3.0-beta, 3.0-stable, 3.0-stable-cuda91, 3.0-stable-uow, 3.0-uow-20180904, 3.0-uow-20180917, 3.0-uow-20181109-cuda80, 3.0-uow-20181109-cuda91, 3.0-uow-20190115
+resmap                             1.1.4, 1.1.5, 1.9.5
+rest                               1.8, 1.8-matlab2017a.r6685
+rings                              1.3.3
+rnammer                            1.2
+roary                              3.11.2(default), 3.12.0
+robex                              1.2
+root                               5.34.32
+*rosetta* ``restricted``           2018.09
+rsem                               1.3.0
+rstudio                            1.0.143, 1.0.44, 1.1.414, 1.1.463, 1.1.463-r3.5.3-mkl, 1.1.463-r3.6.0-mkl
+rstudioserver_epigenetics          1.0, 1.0-20171101
+rsync                              3.1.3
+**S**                              .. _S:
+salome                             9.2.0
+samclip                            0.2
+samtools                           0.1.18, 1.3.1, 1.6, 1.7, 1.7-gcc5, 1.9, 1.9-gcc5
+sas                                9.4
+sbt                                0.13.15, 1.2.1
+scalapack                          2.0.2
+scipion                            2.0, devel, devel-20170327, v1.0.1_2016-06-30, v1.1, v1.1.1, v1.2, v1.2.1, v1.2.1_2018-10-01
+scrappie                           1.4.1
+*sdm_1d_calculate* ``restricted``  2.0.2(default)
+*sdm_1d_plot* ``restricted``       0.0.4(default)
+*sdm_2d_calculate* ``restricted``  2.0.2(default)
+*sdm_2d_plot* ``restricted``       0.0.4(default)
+seqgen                             1.3.4
+seqtk                              1.3
+shapeit                            v2_r837, v2_r904
+shovill                            1.0.4
+simnibs                            2.0.1g
+simple                             2.1, 2.5
+singlem                            0.12.1
+singularity                        2.3.1, 2.4.2, 2.4.5, 2.5.2, 3.0, 3.0.1, 3.0.2, 3.1.0, 3.2.0, 3.2.1(default), d3d0f3fdc4390c7e14a6065543fc85dd69ba42b7
+situs                              3.1
+ska                                1.0-e1968f0
+skesa                              2.2.1, 2.3
+skewer                             20170212
+slamdunk                           latest
+slim                               3.2
+slurm                              17.11.4
+smafa                              0.5.0
+smux                               0.0.1
+snappy                             master, master-gcc4
+snippy                             4.3.8
+snp-dists                          0.6.3
+snpeff                             4.3t
+snpm                               13
+soapdenovo2                        2.04-r241
+sourcetracker                      2.0.1
+spades                             3.12.0
+sparseassembler                    1.0
+sparsehash                         2.0.3
+spectra                            0.8.1
+spider                             21.11
+spm12                              matlab2015b.r6685, matlab2018a.r6685, matlab2018a.r7487
+spm8                               matlab2015b.r6685, matlab2017a.r6685
+squashfs-tools                     4.3-0.21
+squashfuse                         0.1.103
+sra-tools                          2.7.0, 2.9.2, 2.9.4, 2.9.6
+srst2                              0.2.0, 0.2.0-2019
+stacks                             2.4
+star                               2.5.2b
+*stata* ``restricted``             14
+stisuite                           3.0
+strelka                            2.8.4
+stringtie                          1.3.5, 1.3.6
+structure                          2.3.4
+subread                            1.5.1
+subversion                         1.9.5
+suitesparse                        5.4.0
+superlu                            3.1
+surfice                            7_feb_2017
+svd                                1.4
+swig                               3.0.12
+synopsys                           3.1(default)
+**T**                              .. _T:
+tannertools                        2016.1, 2016.2
+tapsim                             v1.0b_r766
+tbb                                20180312oss
+tempest                            1.5
+tensorflow                         1.0.0-python2.7.12-gcc5, 1.10.0-pytorch, 1.10.0-pytorch-all, 1.10.0-pytorch-keras, 1.12.0-python2.7.12-gcc5, 1.12.0-python3.6-gcc5, 1.13.1-gdal, 1.14.0-keras, 1.3.0-python2.7.12-gcc5, 1.4.0-python2.7.12-gcc5, 1.4.0-python3.6-gcc5, 2.0.0-beta1
+terastitcher                       20171106
+texlive                            2017
+tiff                               4.0.8
+tigervnc                           1.8.0
+tmap                               3.0.1
+toothmaker                         0.64
+topaz                              1.0
+tophat                             2.1.1
+tracer                             1.6
+trackvis                           0.6.1
+trim_galore                        0.4.5, 0.5.0
+trimmomatic                        0.38
+turbovnc                           2.0.2(default), 2.1.0
+tvips-tools                        0.0.3
+**U**                              .. _U:
+ucsc-genome-tools                  201806
+umap                               0.3.8
+umi-tools                          0.5.5-python2, 0.5.5-python3
+unblur                             1.0.2
+underworld                         2.3.0
+unicycler                          0.4.7
+unimelb-mf-clients                 0.2.7
+unrar                              5.0
+**V**                              .. _V:
+valgrind                           3.13
+varscan                            2.3.9
+*vasp* ``restricted``              5.4.4
+vcftools                           0.1.15
+vdjtools                           1.2.1
+vegas2                             v02
+velvet                             1.2.10, 1.2.10-modified
+vep                                90(default), 94
+vigra                              1.9.0
+vim                                8.0.0596
+virtualgl                          2.5.0(default), 2.5.2
+visit                              2.12.3
+vmd                                1.9.3, 1.9.4
+volview                            3.4
+voro++                             0.4.6
+vsearch                            2.13.6
+vt                                 0.57
+vtk                                5.10.1, 5.10.1-gcc4, 7.0.0, 7.0.0-gcc5
+**W**                              .. _W:
+wasp                               0.3.0
+wfu_pickatlas                      3.0.5b
+workspace                          4.0.2
+wxgtk                              3.0.2
+wxwidgets                          3.0.3
+**X**                              .. _X:
+xds                                20170302, monash(default), mxbeamteam
+xjview                             9.0, 9.6
+xnat-desktop                       0.96
+xnat-utils                         0.2.1, 0.2.5, 0.2.6, 0.4.5, 0.4.6, 0.4.9
+xvfb                               1.19.3
+**Y**                              .. _Y:
+yade                               1.20.0-cpu, 1.20.0-gpu, 2019-06-20, 2019-06-20-cpu, yade-daily-may-2019
+yasm                               1.2.0-4
+**Z**                              .. _Z:
+zetastitcher                       0.3.3
+zlib                               1.2.11
+zoem                               11-166
+zstd                               1.4.0
+=================================  ==============================================================================================================================================================================================================================================================================================================================================================

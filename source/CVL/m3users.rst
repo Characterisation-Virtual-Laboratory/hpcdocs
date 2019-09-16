@@ -1,0 +1,70 @@
+.. attention::
+    This documentation is under active development, meaning that it can
+    change over time as we refine it. Please email help@massive.org.au if
+    you require assistance.
+
+*******************
+About CVL\@MASSIVE
+*******************
+
+CVL\@MASSIVE is based on M3, which is the third stage of `MASSIVE <www.massive.org.au>`_.
+
+MASSIVE is a High Performance Computing (HPC) facility designed specifically to process complex data. Since 2010, MASSIVE
+has played a key role in driving discoveries across many disciplines including biomedical sciences, materials
+research, engineering and geosciences.
+
+MASSIVE is pioneering and building high performance computing upon Monash’s specialist Research Cloud fabric. M3 has been
+supplied by Dell with a Mellanox low latency network and NVIDIA GPUs.
+
+
+.. To be spun off to a dedicated page once content is written.
+
+System configuration
+--------------------
+
+* Total number of cores:  5,288
+* Total number of GPU cores:  1,115,648 CUDA cores
+* Total memory: 42.8 TBytes
+* Storage capacity: 2.9 PBytes Lustre parallel file system
+* Interconnect: 100 Gb/s Ethernet Mellanox Spectrum network
+
+CVL\@MASSIVE utilises SLURM scheduler to manage the resources with 5 partitions available to users, with different configurations to suit a variety of computational requirements. Details about the partitions can be found `here <http://docs.massive.org.au/M3/slurm/check-cluster-status.html>`_
+
+CVL\@MASSIVE provides the following configurations:
+
+Compute
+-------
+
+========================================  =========  =====  ==================  ============================  ====================   =========  =====================  ========
+ Name                                     Partition  Nodes  CPU Cores per node  Total CPU cores in partition  Memory per node (GB)   CPU Speed  Processor model        Codename 
+========================================  =========  =====  ==================  ============================  ====================   =========  =====================  ========            
+Standard Memory                           m3a        22     24                  528                           128                    2.50 GHz   Intel Xeon E5-2680 v3  Haswell 
+Medium Memory                             m3d        13     24                  312                           256                    2.50 GHz   Intel Xeon E5-2680 v3  Haswell  
+High-Density CPUs                         m3i        52     36                  1,872                         192                    2.70 GHz   Intel Xeon Gold 6150   Skylake 
+High-Density CPUs with High Memory        m3j        6      36                  216                           340                    2.70 GHz   Intel Xeon Gold 6150   Skylake                        
+High-Density CPUs with Extra High Memory  m3m        1      36                  36                            1,024                  2.70 GHz   Intel Xeon Gold 6150   Skylake 
+========================================  =========  =====  ==================  ============================  ====================   =========  =====================  ========
+
+
+GPU Compute
+-----------
+
+==========================  =========  =====  ==================  ============================  ====================  =======================  =======================  ======================  ==================  =========  =====================  =========
+ Name                       Partition  Nodes  CPU Cores per node  Total CPU cores in partition  Memory per node (GB)  Number of GPUs per node  Total GPUs in partition  GPU model               GPU cores per card  CPU Speed  Processor model        Codename 
+==========================  =========  =====  ==================  ============================  ====================  =======================  =======================  ======================  ==================  =========  =====================  =========
+K80 with High-Density GPUs  m3e        1      24                  24                            256                   8                        8                        NVIDIA Tesla K80        4,992               2.50GHz    Intel Xeon E5-2680 v3  Haswell
+P100                        m3h        14     28                  392                           256                   2                        28                       NVIDIA Tesla P100       3,584               2.40GHz    Intel Xeon E5-2680 v4  Broadwell
+V100                        m3g        24     36                  864                           384                   3                        72                       NVIDIA Tesla V100       5,120               2.70GHz    Intel Xeon Gold 6150   Skylake
+DGX1                        TBU        6      40                  240                           512                   8                        48                       NVIDIA Tesla V100 32GB  3,584               2.20GHz    Intel Xeon E5-2698 v4  Broadwell
+==========================  =========  =====  ==================  ============================  ====================  =======================  =======================  ======================  ==================  =========  =====================  =========
+
+Remote desktops through CVL\@MASSIVE
+-----------------------------------
+
+====================================  =========  =====  ==================  ============================  ====================  =======================  =======================  ======================  ==================  =========  =====================  ========
+ Name                                 Partition  Nodes  CPU Cores per node  Total CPU cores in partition  Memory per node (GB)  Number of GPUs per node  Total GPUs in partition  GPU model               GPU cores per card  CPU Speed  Processor model        Codename
+====================================  =========  =====  ==================  ============================  ====================  =======================  =======================  ======================  ==================  =========  =====================  ========
+K1- Visualisation and Job Submission  m3f        32     3                   96                            16                    1                        32                       NVIDIA Grid K1          192                 2.50GHz    Intel Xeon E5-2680 v3  Haswell
+P4 - Light Compute                    m3p        66     6                   396                           55                    1                        66                       NVIDIA Tesla P4         2,560               2.70GHz    Intel Xeon Gold 6150   Skylake
+K80 - Heavy Compute                   m3c        26     12                  312                           128                   2                        52                       NVIDIA Tesla K80        4,992               2.50GHz    Intel Xeon E5-2680 v3  Haswell
+====================================  =========  =====  ==================  ============================  ====================  =======================  =======================  ======================  ==================  =========  =====================  ========
